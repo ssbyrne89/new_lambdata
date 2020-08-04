@@ -10,6 +10,8 @@ twine = "*"
 pandas = "*"
 numpy = "*"
 scikit-learn = "*"
+pycodestyle = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.7"
