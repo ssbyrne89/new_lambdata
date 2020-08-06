@@ -21,6 +21,8 @@ def helper1(X):
 
 # removes all whitespace from column names
     X.columns = X.columns.str.strip()
+    # add a line to remove whitespace from the row objects
+    
 
 # return the dataframe
     return X
